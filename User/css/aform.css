@@ -1090,7 +1090,7 @@ input[type=date] {
 
 select[type=text] {
  
-    width: 25%;
+    width: 70%;
     height: 35px;
     display: inline-block;
     border: 1px solid #94e614;
