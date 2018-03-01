@@ -573,8 +573,46 @@ window.onclick = function(event) {
      <div class="column">
       <div class="col-sm-12">
       Type of Scholarship: <select type="text" name="scholarship_name" required>
-      <option name="" value="">Select...</option>
-      <option name="" value="1">Select...</option>
+	      
+      <option name="" value="1">Select...</option><optgroup label="CvSU SCHOLARSHIP PROGRAM">
+      <option name="" value="">CvSU State Scholarship</option>
+      <option name="" value="">Academic Scholarship</option>
+      <option name="" value="">CvSU Scholarship Privelage</option>
+      <option name="" value="">Service Scholarship</option>
+
+      <optgroup label="CvSU FINANCIAL ASSISTANCE PROGRAM">
+      <option name="" value="">Student Assistanship</option>
+      <option name="" value="">Job Experience Program</option>
+
+      <optgroup label="GOVERNMENT SCHOLARAHIP">
+      <option name="" value="">Republic Act 7160 (RA 7160)</option>
+      <option name="" value="">PVAO Government (Phils Veterans Affairs)</option>
+      <option name="" value="">DND- CHED- PASUC</option>
+      <option name="" value="">Presidential Decree 577 (PD 577)</option>
+      <option name="" value="">City Government of Dasmarinas Scholarship Program</option>
+      <option name="" value="">Municipality of Indang Scholarship</option>
+      <option name="" value="">DA Agriculture Competitiveness Enhancement Fund</option>
+      <option name="" value="">(ESGPPA) CHED Disbursement</option>
+      <option name="" value="">CHED StuFAP - Tulong Dunong</option>
+
+      <option name="" value="">1st District of Cavite by Cong. Abaya</option>
+      <option name="" value="">2nd District of Cavite by Cong. Lani Revilla</option>
+      <option name="" value="">3rd District of Cavite by Cong. Advincula</option>
+      <option name="" value="">5th District of Cavite by Cong. Loyola</option>
+      <option name="" value="">6th District of Cavite by Cong. Ferrer</option>
+      <option name="" value="">7th District of Cavite by Cong. Tolentino</option>
+      <option name="" value="">1st District of Batangas by Cong. Buhain</option>
+      <option name="" value="">KALINGA Partylist</option>
+      <option name="" value="">ANGKLA Partylist</option>
+      <option name="" value="">*Iskolar ng Bayan (RA 10648)</option>
+
+      <optgroup label="PRIVATE SCHOLARSHIP">
+      <option name="" value="">Lifebank Foundation, Inc.</option>
+      <option name="" value="">Cavite Association, USA Inc.</option>
+      <option name="" value="">Cavite association of Jacksonville, Florida, USAScholarship Program</option>
+      <option name="" value="">CvSU CEAP</option>
+      <option name="" value="">OWWA(Overseas Workers Welfare Administration)</option>
+      <option name="" value="">Norwegian Mission Alliance, Phil. Scholarship</option>
        <span class="error">* <?php echo $scholarship_nameErr;?></span>
       </select> </div> </div>
       <div class="column">
