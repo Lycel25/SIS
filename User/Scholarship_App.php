@@ -657,17 +657,14 @@ window.onclick = function(event) {
   </select>
   </div>
   <div class="column">
-    A.Y.:<select type="text1" name="ay" required>
-    <option value="1">Select...</option>
-        <?php
-          
-    $query = $conn->query("SELECT * FROM  tbl_position where p_status = 'Enabled' ORDER BY p_title ASC");     
-        if($query->num_rows > 0){
-            while($row = $query->fetch_assoc()){
-      echo '<option value="'.$row['p_title'].'">'.$row['p_title'].'</option>';
-      }
-    }?>
-  </select>
+    A.Y.:<select id="year" name="year" type="text1" required>
+        <option value="">Select...</option>
+  <?php
+  for($i = 1900; $i < date("Y")+1; $i++){
+      echo '<option value="'.$i.'">'.$i.'</option>';
+  }
+  ?>
+</select>
   </div>
 </div></br> 
 
